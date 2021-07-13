@@ -1,0 +1,29 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "type chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdj9878/typechain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdj9878/typechain/issues"
+  },
+  "homepage": "https://github.com/kdj9878/typechain#readme",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}

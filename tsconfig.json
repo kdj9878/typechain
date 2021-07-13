@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2015", //어떤 버전 자바스크립트로 컴파일 할것인지
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "outDir":"dist"
+        //컴파일 된 것들이 dist로 들어가게 된다.
+
+    },
+    "include": ["src/**/*"],    //src에 있는 모든 파일을 컴파일 하기 때문에 이런 식으로 바꿈
+    "exclude": [
+        "node_modules"
+    ]
+}
+//node.js를 평범하게 사용하고 다양한 걸 import하거나 export할 수 있게 만드는 것
+
+
+//일반적으로 프로젝트를 할 때 사용하는 셋업
